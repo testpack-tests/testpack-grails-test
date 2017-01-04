@@ -17,6 +17,6 @@ class HelloControllerSpec extends Specification {
 
     void "test something"() {
         expect:"the truth"
-            true == true
+            true == false
     }
 }
