@@ -1,8 +1,7 @@
 {
-  "name": "Start on Heroku: Gradle",
-  "description": "A barebones Gradle app, which can easily be deployed to Heroku.",
-  "addons": [ "heroku-postgresql" ],
+  "name": "Gradle Testpack test",
+  "description": "An app for testing the Gradle testpack on Heroku.",
   "buildpacks": [
-      { "url" : "https://codon-buildpacks.s3.amazonaws.com/buildpacks/jkutner/gradle-test.tgz" }
+      { "url" : "https://github.com/heroku/heroku-buildpack-gradle" }
    ]
 }
